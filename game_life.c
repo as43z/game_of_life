@@ -95,12 +95,11 @@ int main(int argc, char const *argv[])
     initTablero(tablero);
 
     /* design a pattern */
-    tablero[13][13] = 1;
-    tablero[14][13] = 1;
-    tablero[14][14] = 1;
-    tablero[14][15] = 1;
-    tablero[14][16] = 1;
-    tablero[15][16] = 1;
+    tablero[4][3] = 1;
+    tablero[5][4] = 1;
+    tablero[5][5] = 1;
+    tablero[4][5] = 1;
+    tablero[3][5] = 1;
 
     int iteration = 0;
     while(1){
